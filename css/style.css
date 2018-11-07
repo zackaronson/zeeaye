@@ -61,6 +61,7 @@ h2, .section-heading h2 {
 
 h3, .probootstrap-card .probootstrap-card-text .probootstrap-card-heading, .service .heading, .service.left-icon h3 {
   font-size: 1.266em;
+  line-height: 1.4;
 }
 
 h4, .probootstrap-panel .panel .panel-title {
