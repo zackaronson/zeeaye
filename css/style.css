@@ -1047,11 +1047,11 @@ figure:hover figcaption, figure:focus figcaption {
   width: 100wh;
   height: 100vh;
   color: #fff;
-  background: linear-gradient(-45deg, #006CFF, #00FF80, #2A3139);
+  background: linear-gradient(-45deg, #006CFF, #0C182A);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 30s ease infinite;
-  -moz-animation: Gradient 30s ease infinite;
-  animation: Gradient 30s ease infinite;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
