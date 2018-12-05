@@ -79,11 +79,11 @@ p, ul, ol, figure {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.7)
 }
 
 a:hover, a:focus {
-  color: #f2f2f2;
+  color: #ffffff;
   text-decoration: none !important;
 }
 
@@ -1049,9 +1049,9 @@ figure:hover figcaption, figure:focus figcaption {
   color: #fff;
   background: linear-gradient(-45deg, #006CFF, #0C182A);
   background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite;
+  -webkit-animation: Gradient 6s ease infinite;
+  -moz-animation: Gradient 6s ease infinite;
+  animation: Gradient 6s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
