@@ -536,6 +536,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
   padding: 4em 0;
   position: relative;
   z-index: 2;
