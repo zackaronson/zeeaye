@@ -736,7 +736,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-footer-widget.right {
-  text-align: right;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
