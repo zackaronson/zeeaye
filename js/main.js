@@ -62,51 +62,51 @@
 	/*----------------------------------------
 		Burger Menu
 	----------------------------------------*/	
-	var mobileMenuControl = function() {
+	// var mobileMenuControl = function() {
 		
 
-		// click burger menu
-		$('.probootstrap-burger-menu').on('click', function(e){
-			e.preventDefault();
-			if ($('body').hasClass('show')) {
-				$('.probootstrap-burger-menu').removeClass('active');
-				$('body').removeClass('show');
-			} else {
-				$('.probootstrap-burger-menu').addClass('active');
-				$('body').addClass('show');
-			}
-		});
+	// 	// click burger menu
+	// 	$('.probootstrap-burger-menu').on('click', function(e){
+	// 		e.preventDefault();
+	// 		if ($('body').hasClass('show')) {
+	// 			$('.probootstrap-burger-menu').removeClass('active');
+	// 			$('body').removeClass('show');
+	// 		} else {
+	// 			$('.probootstrap-burger-menu').addClass('active');
+	// 			$('body').addClass('show');
+	// 		}
+	// 	});
 
-		if ($(window).width() > 420) {
-			$('body').removeClass('probootstrap-mobile-menu-active');
-			$('.probootstrap-burger-menu').removeClass('active');
-		} else {
-			$('body').addClass('probootstrap-mobile-menu-active');
-		}
+	// 	if ($(window).width() > 420) {
+	// 		$('body').removeClass('probootstrap-mobile-menu-active');
+	// 		$('.probootstrap-burger-menu').removeClass('active');
+	// 	} else {
+	// 		$('body').addClass('probootstrap-mobile-menu-active');
+	// 	}
 
-		$(window).resize(function(){
-			if ($(window).width() > 420) {
-				$('body').removeClass('probootstrap-mobile-menu-active');
-				$('.probootstrap-burger-menu').removeClass('active');
-			} else {
-				$('body').addClass('probootstrap-mobile-menu-active');
-			}
-		});
+	// 	$(window).resize(function(){
+	// 		if ($(window).width() > 420) {
+	// 			$('body').removeClass('probootstrap-mobile-menu-active');
+	// 			$('.probootstrap-burger-menu').removeClass('active');
+	// 		} else {
+	// 			$('body').addClass('probootstrap-mobile-menu-active');
+	// 		}
+	// 	});
 
-		// Click outside of the Mobile Menu content
-		$(document).click(function (e) {
-	    var container = $(".probootstrap-nav, .probootstrap-burger-menu");
+	// 	// Click outside of the Mobile Menu content
+	// 	$(document).click(function (e) {
+	//     var container = $(".probootstrap-nav, .probootstrap-burger-menu");
 	    
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-	      if ( $('body').hasClass('show') ) {
-					$('body').removeClass('show');
-					$('.probootstrap-burger-menu').removeClass('active');
-				}
-	    }
-		});
+	//     if (!container.is(e.target) && container.has(e.target).length === 0) {
+	//       if ( $('body').hasClass('show') ) {
+	// 				$('body').removeClass('show');
+	// 				$('.probootstrap-burger-menu').removeClass('active');
+	// 			}
+	//     }
+	// 	});
 		
 
-	};
+	// };
 
 	/*----------------------------------------
 		Search
@@ -554,7 +554,7 @@
 		searchControl();
 		magnificPopupControl();
 		stellarInit();
-		mobileMenuControl();
+		// mobileMenuControl();
 		nextScroll();
 		loaderPage();
 		goToTop();
