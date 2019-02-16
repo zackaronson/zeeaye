@@ -134,7 +134,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   position: relative;
 }
 
-.probootstrap-mobile-menu-active .probootstrap-nav {
+/*.probootstrap-mobile-menu-active .probootstrap-nav {
   text-align: left;
   position: fixed;
   display: block !important;
@@ -152,30 +152,30 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   transition: .3s all ease-out;
   -webkit-transform: translateX(300px);
   transform: translateX(300px);
-}
+}*/
 
-.probootstrap-mobile-menu-active .probootstrap-nav .extra-text {
+/*.probootstrap-mobile-menu-active .probootstrap-nav .extra-text {
   display: block;
   float: left;
   clear: both;
   margin-top: 30px;
   color: #ffffff;
-}
+}*/
 
-.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons {
+/*.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons {
   padding: 0;
   margin: 0 0 20px 0;
-}
+}*/
 
-.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li {
+/*.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li {
   display: inline-block;
   *display: inline;
   zoom: 1;
   padding: 0;
   margin: 0;
-}
+}*/
 
-.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li a {
+/*.probootstrap-mobile-menu-active .probootstrap-nav .extra-text .social-buttons li a {
   color: #ffffff;
   padding: 10px;
 }
@@ -195,18 +195,18 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-mobile-menu-active.show .probootstrap-nav {
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
-}
+}*/
 
 .probootstrap-main-nav {
   margin: 0;
   padding: 0;
 }
 
-.probootstrap-mobile-menu-active .probootstrap-main-nav {
+/*.probootstrap-mobile-menu-active .probootstrap-main-nav {
   float: left;
   margin-top: 40px;
   width: 100%;
-}
+}*/
 
 .probootstrap-main-nav li {
   margin: 0;
@@ -216,12 +216,12 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   font-size: 18px;
 }
 
-.probootstrap-mobile-menu-active .probootstrap-main-nav li {
+/*.probootstrap-mobile-menu-active .probootstrap-main-nav li {
   margin-bottom: 10px;
   display: block;
   padding-left: 0;
   padding-right: 0;
-}
+}*/
 
 .probootstrap-main-nav li a {
   font-weight: 400;
@@ -296,7 +296,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   display: block;
 }
 
-.mobile-menu-overlay {
+/*.mobile-menu-overlay {
   z-index: 1099;
   position: fixed;
   top: 0;
@@ -315,7 +315,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-mobile-menu-active.show .mobile-menu-overlay {
   opacity: 1;
   visibility: visible;
-}
+}*/
 
 .probootstrap-header-social {
   position: absolute;
@@ -334,11 +334,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-right-nav {
-  position: absolute;
-  top: 3px;
-  right: 0;
-  margin: 0;
-  padding: 0;
+    text-align: right;
+    top: 29px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .probootstrap-right-nav li {
@@ -354,7 +354,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding: 0 10px;
 }
 
-.probootstrap-burger-menu {
+/*.probootstrap-burger-menu {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -417,10 +417,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-burger-menu.active i::after {
   bottom: 0;
   -webkit-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);*/
 }
 
-.probootstrap-mobile-menu-active.show .probootstrap-burger-menu i {
+/*.probootstrap-mobile-menu-active.show .probootstrap-burger-menu i {
   color: #ffffff;
   background: #000000;
 }
@@ -433,7 +433,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   position: absolute;
   top: 30px;
   right: 20px;
-}
+}*/
 
 .btn {
   border: none;
@@ -1363,6 +1363,12 @@ figure:hover figcaption, figure:focus figcaption {
   }
 }
 
+@media screen and (max-width: 420px) {
+  .probootstrap-main-nav {
+    display: none;
+  }
+}
+
 .probootstrap-home-search form {
   float: left;
   width: 100%;
@@ -1392,11 +1398,11 @@ figure:hover figcaption, figure:focus figcaption {
   float: left;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .probootstrap-home-search .probootstrap-field-group .probootstrap-fields {
     width: 100%;
   }
-}
+}*/
 
 .probootstrap-home-search .probootstrap-field-group .probootstrap-fields input, .probootstrap-home-search .probootstrap-field-group .probootstrap-fields select {
   border-radius: 0;
@@ -2318,12 +2324,12 @@ figure:hover figcaption, figure:focus figcaption {
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .owl-theme .owl-controls .owl-nav {
     display: none;
   }
 }
-
+*/
 .owl-theme .owl-controls .owl-nav [class*="owl-"] {
   background: none !important;
 }
